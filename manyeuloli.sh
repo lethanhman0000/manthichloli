@@ -51,3 +51,4 @@ curl -X POST -H "Content-Type: application/json" -d '{
   "access": "proxy",
   "basicAuth": false
 }' $GRAFANA_URL/api/datasources -u $GRAFANA_USER:$GRAFANA_PASS
+clear
